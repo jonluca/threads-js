@@ -20,7 +20,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: "26.12.1"
 
       - name: install dependencies and build
         run: yarn install
@@ -51,7 +51,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: "26.12.1"
 
       - name: install dependencies
         run: yarn install --ignore-scripts
